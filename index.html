@@ -8,10 +8,12 @@
    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
    <link rel="stylesheet" type="text/css" href="mine.css">
    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+   <link rel="stylesheet" type="text/css" href="blockScroll.css">
 </head>
 <body>
 
-<div class="top" align="center">
+
+<div class="top crossfade" align="center" data-crossfade-start="top.jpg" data-crossfade-end="top2.jpg">
   <div id="bigmessage">BIBORO
   </div>
   <div id="smallmessage">
@@ -68,18 +70,18 @@
 
 
 </div>
-<script type="text/javascript">
-element.onscroll = function()
-{
-  var scrollTop =
-        document.documentElement.scrollTop || // IE、Firefox、Opera
-        document.body.scrollTop;              // Chrome、Safari
-
-    // スクロール範囲の最大のピクセル数
-    var range = this.scrollHeight - this.offsetHeight;
-}
-</script>
-
+<script src="http://code.jquery.com/jquery-1.9.0.js"></script>
+<script src="crossfade.jquery.js"></script>
+<script src="js/blockScroll.js"></script>
+<script>
+$(function(){
+   $('.crossfade').crossfade({
+        // ここにオプションを指定する
+        threshold: 0.3, // オプション指定の例。
+        backgroundPosition: 'center center'
+    });
+});
+</script> 
 
 
 </body>

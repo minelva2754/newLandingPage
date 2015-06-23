@@ -1,4 +1,19 @@
-html, body ,.top{
+html, body {
+    min-width: 100%;
+    height: 100%;
+    min-height: 100%;
+ 	background-position: center center;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-size: cover;
+	background-color: #464646;
+}
+.crossfade {
+    position: relative;
+}
+
+
+.top{
     min-width: 100%;
     height: 100%;
     min-height: 100%;
@@ -8,6 +23,8 @@ html, body ,.top{
     background-attachment: fixed;
 	background-size: cover;
 	background-color: #464646;
+	z-index: 1;	
+
 }
 
 #bigmessage{
@@ -16,8 +33,8 @@ html, body ,.top{
 	font-family: 'Oswald', sans-serif;
 	position: relative;
 	top: 200px;
+	z-index: 2;
 }
-
 
 @media (max-width: 800px) { 
 	#bigmessage {
@@ -31,6 +48,7 @@ html, body ,.top{
 	font-family: 'Oswald', sans-serif;
 	position: relative;
 	top: 220px;
+		z-index: 2;
 }
 
 
@@ -120,8 +138,8 @@ color: white;
 
 .codearea{
 	background-color: black;
-	width: 1000px;
-	height: 500px;
+	width: 80%;
+	height: 70%;
 	opacity: 0.6;
 
 }
@@ -134,7 +152,7 @@ color: white;
 
 	.codearea {
 	width: 100%;
-	height: 50%;
+	height: 70%;
 	}
 }
 
@@ -180,7 +198,7 @@ color: white;
 	}
 	.experience2{
 	min-width: 100%;
-    height: 120%;
+    height: 100%;
     min-height: 100%;
     background-image:url("experience2.jpg");
  	background-position: center center;
@@ -188,14 +206,14 @@ color: white;
     background-attachment: fixed;
 	background-size: cover;
   　background-color: #464646;
-}
+	}
 
 }
 
 .codearea2{
 	background-color: black;
-	width: 1000px;
-	height: 500px;
+	width: 80%;
+	height: 70%;
 	opacity: 0.6;
 
 }
@@ -204,6 +222,7 @@ color: white;
 	.codearea2 {
 	width: 100%;
 	height: 70%;
+
 	}
 }
 
