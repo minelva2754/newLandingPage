@@ -44,7 +44,7 @@ html, body {
 
 #smallmessage{
 	color: white;
-	font-size: 200%;
+	font-size: 300%;
 	font-family: 'Oswald', sans-serif;
 	position: relative;
 	top: 220px;
@@ -70,7 +70,7 @@ color: white;
 }
 
 .text{
-	font-size: 300%;
+	font-size: 200%;
 	font-family: 'Oswald', sans-serif;
 	position: relative;
 }
@@ -139,7 +139,7 @@ color: white;
 .codearea{
 	background-color: black;
 	width: 80%;
-	height: 70%;
+	height: 60%;
 	opacity: 0.6;
 
 }
@@ -213,7 +213,7 @@ color: white;
 .codearea2{
 	background-color: black;
 	width: 80%;
-	height: 70%;
+	height: 60%;
 	opacity: 0.6;
 
 }
