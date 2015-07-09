@@ -123,7 +123,7 @@ color: white;
 
 #bigmessage2{
 	color: white;
-	font-size: 650%;
+	font-size: 500%;
 	font-family: 'Oswald', sans-serif;
 	position: relative;
 	top: 50px;
@@ -205,8 +205,8 @@ color: white;
 	font-size: 200%;
 	font-family: 'Oswald', sans-serif;
 	position: relative;
-	top: 70px;
-	padding-bottom: 30px;
+	top: 10px;
+	padding-bottom: 10px;
 }
 
 .bigmessage3{
@@ -214,8 +214,8 @@ color: white;
 	font-size: 650%;
 	font-family: 'Oswald', sans-serif;
 	position: relative;
-	top: 50px;
-	padding-bottom: 50px;
+	top: 10px;
+	padding-bottom: 10px;
 
 }
 
