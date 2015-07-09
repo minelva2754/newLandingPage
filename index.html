@@ -60,7 +60,30 @@
   <div id="smallmessage2">PUSH command + A
   </div>
 
-  <div class="codearea">
+  <div id="smallmessage3">CのHELLO WORLDの書き方
+  </div>
+  <pre class="codearea" align="left">
+<code id="code">
+  #include&lt;stdio.h&gt;
+  int main(){
+    printf("hello world!\n");
+    return 0;
+  }
+</code>
+</pre>
+ 
+  <div id="smallmessage3">C++のHELLO WORLDの書き方
+  </div>
+<pre class="codearea" align="left">
+<code id="code">
+  #include&lt;iostream&gt;
+  using namespace std;
+  int main(){
+  cout&gt;&gt;"hello world!"&gt;&gt;endl;
+  return 0;
+  }
+</code>
+</pre>
   </div>
 
 </section>
@@ -81,7 +104,7 @@
 </section>
 <script src="http://code.jquery.com/jquery-1.9.0.js"></script>
 <script src="crossfade.jquery.js"></script>
-<script src="js/blockScroll.js"></script>
+<script src="script.js"></script>
 <script>
 $(function(){
    $('.crossfade').crossfade({
