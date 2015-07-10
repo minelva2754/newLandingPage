@@ -75,8 +75,8 @@ var highlightText = function(element) {
     range.selectNodeContents(element);
     selection.removeAllRanges();
     selection.addRange(range);
-    var top = element.offsetTop - (window.innerHeight / 2 );
-    window.scrollTo( 0, top );
+    // var top = element.offsetTop - (window.innerHeight / 2 );
+    // window.scrollTo( 0, top );
 };
 
 //key event process
